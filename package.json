@@ -1,0 +1,21 @@
+{
+  "name": "core-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib && node buildModuleExports.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.4.0"
+  },
+  "dependencies": {
+    "core-hybrid": "file:../core-hybrid",
+    "electron": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
